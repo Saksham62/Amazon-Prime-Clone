@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: noto sans;
+    height: 0px;
+}
+
+.nav {
+    display: flex;
+    background-color: #00050d;
+    color: #a5a7aa;
+    font-size: 1.15rem;
+    justify-content: center;
+    padding: 10px;
+    gap: 70px;
+    max-height: 4vh;
+}
+
+.nav ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.first ul {
+    gap: 45px;
+}
+
+.first ul li {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+
+.extras ul {
+    gap: 25px;
+}
+
+.extras ul li {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+
+.EN{
+    transition: 0.1s;
+}
+
+.first ul li:hover{
+    /* background-color: #191e25; */
+    color: white;
+    cursor: pointer;
+}
+
+.extras ul li:hover{
+    /* background-color: #191e25; */
+    color: white;
+    cursor: pointer;
+}
+
+.first ul li img{
+    transition: 0.1s;
+}
+
+.first ul li img:hover{
+    transform: rotate(180deg);
+    fill: white;
+}
+
+.EN:hover{
+    transform: rotate(180deg);
+}
+
+.prime-img:hover{
+    cursor: pointer;
+}
+
+.mirzapur{
+    position: relative;
+    z-index: 1;
+}
+
+.text {
+    position: absolute;
+    top: 50px;
+    color: white;
+    margin: 40px;
+}
+
+.text p:first-child {
+    font-size: 40px;
+}
+
+.text p:nth-child(2) {
+    font-size: 21px;
+    margin-top: 22px;
+    width: 80%;
+}
+
+.text button {
+    background-color: #0f79af;
+    color: #ffffff;
+    border: none;
+    padding: 14px 60px 14px 60px;
+    margin-top: 50px;
+    font-size: 17px;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.text button:hover{
+    cursor: pointer;
+}
+
+.multiple {
+    position: absolute;
+    top: 550px;
+    width: 100%;
+    z-index: 2;
+}
+
+.text-multiple {
+    position: absolute;
+    top: 0px;
+    color: white;
+    margin: 40px;
+}
+
+.text-multiple p:first-child {
+    font-size: 40px;
+}
+
+.text-multiple p:nth-child(2) {
+    font-size: 21px;
+    margin-top: 22px;
+}
+
+.text-multiple button {
+    background-color: #0f79af;
+    color: #ffffff;
+    border: none;
+    padding: 14px 100px 14px 100px;
+    margin-top: 50px;
+    font-size: 17px;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.text-multiple button:hover{
+    cursor: pointer;
+}
+
+.box {
+    background-color: white;
+    min-width: 96.4vw;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 20px;
+    position: absolute;
+    top: 1070px;
+    z-index: 3;
+}
+
+.box-text {
+    margin: 45px;
+    position: relative;
+    top: -30px;
+}
+
+.box p:first-child {
+    font-size: 45px;
+    width: 90%;
+}
+
+.box p:nth-child(2) {
+    font-size: 25px;
+    margin-top: 22px;
+    width: 95%;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+    /* width: 100%;
+    max-width: 1200px;
+    margin: 0 auto; */
+    position: relative;
+    right: 30px;
+}
+
+.ott {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vw;
+    font-size: 18px;
+    text-align: center;
+}
+
+.ott:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 13px 4px black;
+}
+
+.footer {
+    background-color: #222222;
+    padding: 13px;
+    position: relative;
+    top: 970px;
+    z-index: 4;
+}
+
+.footer img {
+    display: flex;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.links a {
+    color: #4499d8;
+    text-decoration: none;
+}
+
+.links {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.footer p {
+    color: #62838f;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.links a:hover{
+    cursor: pointer;
+    color: #79b8f3;
+}
+
+@media only screen and (min-width: 500px){
+    body{
+        background-color: blue;
+    }
+}
