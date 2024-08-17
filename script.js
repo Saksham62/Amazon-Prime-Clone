@@ -1,5 +1,5 @@
-document.querySelector(".first").getElementsByClassName(".svg")
-document.querySelector(".extras").getElementsByClassName(".svg")
+document.querySelector(".first")
+document.querySelector(".extras")
 
 svg1.addEventListener("mouseenter", () => {
     svg1.src="svg/arrow down white.svg";
